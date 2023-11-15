@@ -1,0 +1,6 @@
+//
+// N.B. Auto-generated using actus-mp
+//
+{% for contract in dictionary.contract_set %}
+mod {{contract.type_info.acronym.lower()}};
+{% endfor %}
