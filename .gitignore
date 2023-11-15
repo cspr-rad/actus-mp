@@ -135,3 +135,4 @@ dmypy.json
 tmp/
 tmp.*
 jobs/generate.sh
+result
